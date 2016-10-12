@@ -17,5 +17,5 @@ def profile(username):
     return 'User {}'.format(username)
 
 if __name__ == '__main__':
-	app.config['TEMPLATES_AUTO_RELOAD'] = True
+    app.config['TEMPLATES_AUTO_RELOAD'] = True
     app.run(debug=True)
